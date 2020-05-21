@@ -1,0 +1,93 @@
+header#main-header {
+  height: 46px;
+  background: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .25);
+}
+
+header#main-header .content {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 30px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header#main-header .content nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header#main-header .content nav ul li {
+  display: flex;
+  align-items: center;
+
+  color: #667580;
+  font-size: 13px;
+  font-weight: bold;
+
+  margin-left: 30px;
+}
+
+header#main-header .content nav ul li:first-child{
+  margin-left: 0;
+}
+
+header#main-header .content nav ul li i {
+  margin-right: 5px;
+  height: 20px;
+
+}
+
+header#main-header .content #logo {
+  color: rgb(29, 161, 242);
+  font-size: 20px;
+}
+
+header#main-header .content div {
+  display: flex;
+  align-items: center;
+}
+
+header#main-header .content div input {
+
+  width: 220px;
+  border: 1px solid #e6ecf0;
+  border-radius: 16px;
+  
+  height: 34px;
+
+  padding: 0 35px 0 12px;
+
+  font-size: 12px;
+  background: #f5f8fa url('./assets/fi-xnluhl-magnifying-glass.svg') no-repeat 190px center;
+  background-size: 25px;
+
+}
+
+header#main-header .content div img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+
+  margin: 0 15px;
+}
+
+header#main-header .content div button {
+  width: 90px;
+  height: 34px;
+  background: rgb(29, 161, 242);
+  color: white; 
+  border: none;
+  border-radius: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+  font-size: 14px;
+
+  cursor: pointer;
+}

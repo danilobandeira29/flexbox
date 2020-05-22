@@ -37,7 +37,7 @@ header#main-header .content nav ul li:first-child{
   margin-left: 0;
 }
 
-header#main-header .content nav ul li i {
+header#main-header .content nav ul li img {
   margin-right: 5px;
   height: 20px;
 
@@ -45,7 +45,7 @@ header#main-header .content nav ul li i {
 
 header#main-header .content #logo {
   color: rgb(29, 161, 242);
-  font-size: 20px;
+  font-size: 25px;
 }
 
 header#main-header .content div {

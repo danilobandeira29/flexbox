@@ -79,7 +79,11 @@ div.bar .content .actions button {
   margin-right: 20px;
 }
 
-div.bar .content .actions i {
-  color: #667580;
+div.bar .content .actions {
+  display: flex;
+  align-items: center;
+}
+
+div.bar .content .actions img {
   cursor: pointer;
 }

@@ -1,0 +1,114 @@
+div.wrapper-content aside.profile {
+  width: 260px;
+  margin-top: -130px;
+}
+
+div.wrapper-content aside.profile h1 {
+  font-size: 21px;
+  color: #1f2226;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.profile span {
+  font-size: 14px;
+  color: #53636c;
+}
+
+div.wrapper-content aside.profile p {
+  font-size: 14px;
+  color: #1f2226;
+  margin-top: 15px;
+}
+
+div.wrapper-content aside.profile ul.profile-info {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+div.wrapper-content aside.profile ul.profile-info li {
+  font-size: 14px;
+  color: #657786;
+  margin-top: 5px;
+}
+
+div.wrapper-content aside.profile ul.profile-info li:first-child{
+  margin-top: 0;
+}
+
+div.wrapper-content aside.profile ul.profile-info li a {
+  text-decoration: none;
+  color: rgb(29, 161, 242);
+  font-weight: bold;
+}
+
+div.wrapper-content aside.profile ul.profile-info li a:hover{
+  text-decoration: underline;
+}
+
+div.wrapper-content aside.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+div.wrapper-content aside.profile .widget {
+  margin-top: 20px;
+
+}
+
+div.wrapper-content aside.profile .widget strong {
+  font-weight: normal;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+div.wrapper-content aside.profile .widget strong i {
+  margin-right: 5px;
+}
+
+div.wrapper-content aside.profile .followers ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+div.wrapper-content aside.profile .followers ul li {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  flex-grow: 1;
+  background: #d0d5d9;
+
+  margin: 0 5px 5px 0;
+}
+
+div.wrapper-content aside.profile .widget strong {
+  color: rgb(29, 161, 242)
+}
+
+div.wrapper-content aside.profile .images ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.profile .images ul li {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  flex-grow: 1;
+  background: #d0d5d9;
+
+  margin: 0 5px 5px 0;
+}
+
+div.wrapper-content aside.profile .widget strong {
+  color: rgb(29, 161, 242)
+}
+

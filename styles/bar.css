@@ -6,25 +6,26 @@ div.bar {
 
 }
 
-div.bar .bar-content {
+div.bar .content {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-left: 285px;
+  padding-right: 30px;
 
   height: 100%;
-  width: 1130px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
-div.bar .bar-content ul {
+div.bar .content ul {
   display: flex;
   list-style: none;
   height: 100%;
 
 }
 
-div.bar .bar-content ul li {
+div.bar .content ul li {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,11 +38,11 @@ div.bar .bar-content ul li {
  
 }
 
-div.bar .bar-content ul li.active strong {
+div.bar .content ul li.active strong {
   color: rgb(29, 161, 242);
 }
 
-div.bar .bar-content ul li.active::after {
+div.bar .content ul li.active::after {
   content: '';
   position: absolute;
   background: rgb(29, 161, 242);
@@ -51,13 +52,13 @@ div.bar .bar-content ul li.active::after {
   width: 100%;
 }
 
-div.bar .bar-content ul li span {
+div.bar .content ul li span {
   color: #667580;
   font-size: 12px;
   font-weight: bold;
 }
 
-div.bar .bar-content ul li strong {
+div.bar .content ul li strong {
   color: #667580;
   font-size: 18px;
   font-weight: bold;
@@ -65,7 +66,7 @@ div.bar .bar-content ul li strong {
   margin-top: 2px;
 }
 
-div.bar .bar-content .actions button {
+div.bar .content .actions button {
   width: 90px;
   height: 34px;
   color: rgb(29, 161, 242);
@@ -78,8 +79,7 @@ div.bar .bar-content .actions button {
   margin-right: 20px;
 }
 
-div.bar .bar-content .actions i {
+div.bar .content .actions i {
   color: #667580;
-
   cursor: pointer;
 }

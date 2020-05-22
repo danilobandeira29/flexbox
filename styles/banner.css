@@ -1,0 +1,11 @@
+div.banner {
+  height: 380px;
+  width: 100%;
+
+  background:rgb(29, 161, 242);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

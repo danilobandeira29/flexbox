@@ -1,3 +1,117 @@
-aside.wrapper-content .timeline {
- 
+div.wrapper-content .timeline {
+  background: #fff;
+  flex: 1;
+
+  margin: 10px 20px 0;
+}
+
+div.wrapper-content .timeline nav {
+  border-bottom: 1px solid #e6ecf0;
+  padding: 10px 15px;
+}
+
+div.wrapper-content .timeline nav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(29, 161, 242);
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+div.wrapper-content .timeline nav a:first-child {
+  margin-left: 0;
+}
+
+div.wrapper-content .timeline nav a.active {
+  color: #1f2326;
+}
+
+div.wrapper-content .timeline ul {
+  list-style: none;
+}
+
+div.wrapper-content .timeline ul li {
+  display: flex;
+  padding: 10px 15px;
+  border-bottom: 1px solid #e6ecf0;
+}
+
+div.wrapper-content .timeline ul li > img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  
+}
+
+div.wrapper-content .timeline ul li .tweet {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+div.wrapper-content .timeline ul li .tweet strong {
+  font-size: 14px;
+  color: #1f2326;
+}
+
+div.wrapper-content .timeline ul li .tweet strong span {
+  font-weight: normal;
+  font-size: 13px;
+  color: #7b8b9a;
+  margin-left: 5px;
+}
+
+div.wrapper-content .timeline ul li .tweet strong span:first-child::before {
+  content: '@';
+}
+
+div.wrapper-content .timeline ul li .tweet strong span:nth-child(2){
+  font-size: 12px;
+  position: relative;
+  padding-left: 6px;
+}
+
+div.wrapper-content .timeline ul li .tweet strong span:nth-child(2)::before{
+  content: '';
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: #222;
+
+  
+  position: absolute;
+  top: 5px;
+  left: 1px;
+
+}
+
+div.wrapper-content .timeline ul li .tweet p {
+  font-size: 14px;
+  color: #1f2326;
+  margin-top: 5px;
+}
+
+div.wrapper-content .timeline ul li .tweet .actions {
+  display: flex;
+
+  margin-top: 20px;
+}
+
+div.wrapper-content .timeline ul li .tweet .actions a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #667580;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+div.wrapper-content .timeline ul li .tweet .actions a:first-child {
+  margin-left: 0;
+}
+
+div.wrapper-content .timeline ul li .tweet .actions img {
+  width: 20px;
+  margin-right: 5px;
 }

@@ -1,6 +1,6 @@
 # Flexbox
 ## Resumo
-Está página foi criada utilizando dos conhecimentos de Flexbox
+Está página foi criada utilizando alguns conceitos de Flexbox.
 ## Tecnologias
 - HTML
-- CSS
+- CSS (flexbox)
